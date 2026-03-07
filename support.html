@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TakeHome - Help & Support</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; background: #fafafa; line-height: 1.7; }
+.header { background: linear-gradient(135deg, #1976D2, #0D47A1); padding: 48px 24px; text-align: center; }
+.header h1 { color: white; font-size: 28px; font-weight: 700; }
+.header p { color: rgba(255,255,255,0.8); font-size: 14px; margin-top: 8px; }
+.container { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+h2 { font-size: 20px; color: #0D47A1; margin: 32px 0 12px; }
+h3 { font-size: 16px; color: #1a1a1a; margin: 20px 0 8px; }
+p, li { font-size: 15px; color: #333; margin-bottom: 12px; }
+ul { padding-left: 24px; }
+.faq { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.faq h3 { margin-top: 0; color: #0D47A1; }
+.contact-card { background: white; border-radius: 12px; padding: 24px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.08); margin-top: 32px; }
+.contact-card a { display: inline-block; background: #1976D2; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 12px; }
+.updated { text-align: center; color: #888; font-size: 13px; margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; }
+a { color: #1976D2; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Help & Support</h1>
+  <p>TakeHome: Paycheck Calculator</p>
+</div>
+<div class="container">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq">
+  <h3>How accurate are the calculations?</h3>
+  <p>TakeHome uses 2025 federal and state tax brackets, FICA rates, and standard deductions from official IRS and state government sources. The results are estimates — your actual paycheck may differ slightly due to employer-specific withholding configurations, additional W-4 adjustments, or other deductions like health insurance.</p>
+</div>
+
+<div class="faq">
+  <h3>Which states are supported?</h3>
+  <p>All 50 US states plus Washington D.C. are supported, including states with no income tax (TX, FL, NV, WA, WY, SD, AK, TN, NH). State payroll taxes (SDI/PFL) are calculated for the 10 states that have them: CA, NY, NJ, WA, OR, RI, CT, MA, CO, HI.</p>
+</div>
+
+<div class="faq">
+  <h3>What is SDI/PFL and can I turn it off?</h3>
+  <p>SDI (State Disability Insurance) and PFL (Paid Family Leave) are mandatory payroll deductions in certain states. Most W-2 employees cannot opt out. However, if you are exempt (e.g., sole shareholders in CA, certain religious exemptions), you can toggle off SDI/PFL in the app for a more accurate calculation.</p>
+</div>
+
+<div class="faq">
+  <h3>What are the pre-tax deductions?</h3>
+  <p>Pre-tax deductions (401(k), HSA, Traditional IRA) reduce your taxable income before federal and state income tax is calculated. Note that FICA taxes (Social Security and Medicare) are still calculated on your full gross income — pre-tax deductions do not reduce FICA.</p>
+</div>
+
+<div class="faq">
+  <h3>What does the 65+ / Legally Blind toggle do?</h3>
+  <p>If you are age 65 or older, or legally blind, you qualify for an additional standard deduction. In 2025, this is $1,600 extra for Single/Head of Household filers, or $1,300 for Married filers, per qualifying condition. If you are both 65+ and legally blind, the additional deduction is doubled.</p>
+</div>
+
+<div class="faq">
+  <h3>How do I restore my premium purchase?</h3>
+  <p>Open the app → Settings → Premium → tap "Restore Purchases" at the bottom of the subscription page. Make sure you are signed in with the same Apple ID you used for the original purchase.</p>
+</div>
+
+<div class="faq">
+  <h3>How do I cancel my subscription?</h3>
+  <p>Go to iPhone Settings → tap your name → Subscriptions → find TakeHome → Cancel Subscription. Apple manages all subscriptions — we cannot cancel subscriptions on your behalf.</p>
+</div>
+
+<div class="faq">
+  <h3>Why doesn't my calculation match my actual paycheck?</h3>
+  <p>Common reasons include:</p>
+  <ul>
+    <li>Your employer withholds based on your specific W-4 form, which may differ from standard rates</li>
+    <li>Additional deductions like health insurance, dental, vision, life insurance, or union dues</li>
+    <li>Employer-matched retirement contributions</li>
+    <li>State or local tax credits you may qualify for</li>
+    <li>Year-to-date adjustments for Social Security wage cap</li>
+  </ul>
+</div>
+
+<h2>Contact Us</h2>
+
+<div class="contact-card">
+  <p>Have a question, bug report, or feature request?<br>We'd love to hear from you.</p>
+  <a href="mailto:Stephen20150302@gmail.com">Email Support</a>
+</div>
+
+<div class="updated">TakeHome v1.0.0 · 2025 Tax Year</div>
+</div>
+</body>
+</html>
